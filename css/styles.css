@@ -1,0 +1,146 @@
+:root {
+  --bg-color: #ffffff;
+  --second-text-color: #2196f3;
+  --lead-text-color: #212121;
+  --contacts-text: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--second-text-color);
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-span {
+  color: var(--lead-text-color);
+}
+.head-menu {
+  color: var(--lead-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.head-link {
+  text-decoration: none;
+  color: var(--lead-text-color);
+}
+.head-link:focus,
+.head-link:hover {
+  color: var(--second-text-color);
+}
+.head-contacts {
+  color: var(--contacts-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  list-style: none;
+  text-decoration: none;
+}
+.contact-link {
+  text-decoration: none;
+  color: var(--contacts-text);
+}
+.contact-link:focus,
+.contact-link:hover {
+  color: var(--second-text-color);
+}
+.banner {
+  text-align: center;
+}
+.banner > h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3;
+  text-transform: uppercase;
+  /* color: var(--bg-color); */
+}
+.banner > button {
+  color: var(--bg-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  cursor: pointer;
+}
+.work li {
+  list-style: none;
+}
+.work-line h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--lead-text-color);
+}
+.work-line p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--contacts-text);
+}
+.work-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--lead-text-color);
+}
+.team li {
+  list-style: none;
+}
+.team-heading {
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--lead-text-color);
+}
+.team-line h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--lead-text-color);
+}
+.team-line p {
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--contacts-text);
+}
+/* Фильтр */
+
+.button-nav .item {
+  list-style: none;
+}
+/* Продукты компании */
+
+.product-line {
+  list-style: none;
+}
+.product-line .heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--lead-text-color);
+}
+.product-line p {
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--contacts-text);
+}
+.product-line .link {
+  text-decoration: none;
+}
