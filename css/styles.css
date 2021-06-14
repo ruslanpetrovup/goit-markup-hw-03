@@ -122,7 +122,7 @@ body {
   border-radius: 4px;
 }
 .banner .button:hover {
-  color: #188CE8;
+  background-color: #188ce8;
 }
 /* Наши сильные стороны */
 .work {
