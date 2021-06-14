@@ -121,6 +121,9 @@ body {
   border-color: transparent;
   border-radius: 4px;
 }
+.banner .button:hover {
+  color: #188CE8;
+}
 /* Наши сильные стороны */
 .work {
   padding: 94px 0;
@@ -260,6 +263,10 @@ body {
 .filtr .line {
   list-style: none;
   display: flex;
+  padding: 0;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .filtr .item:not(:first-child) {
   margin-left: 8px;
@@ -269,6 +276,11 @@ body {
   background-color: var(--filtr);
   border-color: transparent;
   padding: 6px 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .filtr .button:focus,
 .filtr .button:hover {
@@ -279,7 +291,9 @@ body {
   border-radius: 4px;
 }
 /* Продукты компании */
-
+.product {
+  padding-bottom: 93px;
+}
 .product .line {
   list-style: none;
   display: flex;
@@ -298,7 +312,7 @@ body {
   margin-right: 0;
 }
 .product .title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.03em;
