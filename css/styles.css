@@ -6,12 +6,16 @@
   --hero: #2f303a;
   --footer-link: rgba(255, 255, 255, 0.6);
   --filtr: #f5f4fa;
+  --border-color: #ececec;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 
 /* Шапка */
+.head-page {
+  border-bottom: 1px solid var(--border-color);
+}
 /* Контейнер */
 .container {
   display: flex;
