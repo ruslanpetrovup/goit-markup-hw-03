@@ -13,7 +13,7 @@ body {
 }
 
 /* Шапка */
-.head-page {
+.header-page {
   border-bottom: 1px solid var(--border-color);
 }
 /* Контейнер */
