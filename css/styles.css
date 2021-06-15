@@ -65,8 +65,8 @@ body {
   display: block;
   text-decoration: none;
   color: var(--lead-text-color);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .head-link:hover,
 .head-link:focus {
@@ -93,6 +93,7 @@ body {
 .head-contacts .link {
   color: var(--contacts-text);
   text-decoration: none;
+  padding: 32px 0;
 }
 .head-contacts .link:focus,
 .head-contacts .link:hover {
