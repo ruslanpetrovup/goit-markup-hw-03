@@ -130,7 +130,7 @@ body {
   cursor: pointer;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-color: transparent;
+  border: none;
   border-radius: 4px;
 }
 .banner .button:hover {
