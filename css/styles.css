@@ -11,7 +11,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+h1,h2,h3,ul,li {
+  margin: 0;
+  padding: 0;
+}
 /* Шапка */
 .header-page {
   border-bottom: 1px solid var(--border-color);
@@ -54,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
   margin: 0;
   margin-left: 93px;
   padding: 0;
@@ -83,6 +87,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
   color: var(--contacts-text);
   list-style: none;
   align-items: center;
@@ -115,6 +120,7 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--bg-color);
   width: 696px;
@@ -127,6 +133,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.8;
+  margin-top: 30px;
   cursor: pointer;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -138,7 +145,7 @@ body {
 }
 /* Наши сильные стороны */
 .work {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 .work .item {
   list-style: none;
@@ -222,6 +229,7 @@ body {
 }
 .team .title-lead {
   font-weight: 700;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -285,15 +293,16 @@ body {
 .filtr {
   padding-top: 94px;
 }
-.filtr .line {
+.filtr .line-filtr {
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 0;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
-.filtr .item:not(:first-child) {
+.filtr .item-filtr:not(:first-child) {
   margin-left: 8px;
 }
 .filtr .button {
@@ -329,24 +338,24 @@ body {
 .container-product {
   display: flex;
 
-  width: 1225px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 15px;
 }
-.product .line {
+.product .line-product {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
-.product .item {
+.product .item-product {
   margin-bottom: 30px;
   margin-right: 30px;
   background: var(--bg-color);
 }
-.product .item:nth-child(3n) {
+.product .item-product:nth-child(3n) {
   margin-right: 0;
 }
 .product .images {
